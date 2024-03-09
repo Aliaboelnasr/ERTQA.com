@@ -1,0 +1,38 @@
+.location {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.accordion,
+.generalInfo {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.generalInfo {
+    padding: 1rem;
+
+}
+
+.generalInfo::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 5px;
+    background-color: var(--second-color);
+}
+
+.anchorinGeneral {
+    text-decoration: none;
+    color: black;
+}
+
+.anchorinGeneral:hover {
+    color: var(--second-color);
+    text-decoration: underline;
+}
