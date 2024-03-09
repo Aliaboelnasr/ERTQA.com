@@ -245,7 +245,7 @@ body {
 
 @media(max-width:767px) {
     body {
-        width: 600px;
+        width: 550px;
     }
 
     .hero {
