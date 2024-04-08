@@ -224,6 +224,9 @@ body {
 }
 
 .hero-text {
+    position: relative;
+    z-index: 10;
+    background-color:darkgrey;
     width: 50%;
     height: 100%;
     box-shadow: 2px 0px 8px 0px rgba(0, 0, 0, 0.5);
@@ -289,6 +292,7 @@ body {
 
 /* comments */
 .container-comments {
+    margin: 50px 0px;
     padding: 50 0px;
     text-align: center;
     background-image: url(../assetss/assetss/carousel/parents.jpeg);
@@ -299,6 +303,11 @@ body {
     margin-bottom: 40px;
     color: #333;
 
+}
+.container-comments .comments .icon{
+    opacity:inherit;
+    height:5px;
+    width:5px;
 }
 
 .container-comments .comments>div {
